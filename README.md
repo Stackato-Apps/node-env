@@ -1,6 +1,6 @@
-# A minimal NodeJS application
+# Node.js ENV 
 
-This app simply prints the server's environment variables.
+A simple demo that prints the server's environment variables.
 
 ## Local development
 
