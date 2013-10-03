@@ -1,3 +1,6 @@
 name: env
 
+framework:
+  type: node
+
 mem: 256M
