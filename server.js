@@ -5,7 +5,7 @@ var http = require("http"),
     mustache = require("./lib/mustache"),
     keyprocessor = require("./lib/keyprocessor"),
     sysinfo = require('./lib/sysinfo'),
-    port = process.env.VCAP_APP_PORT || 8888;
+    port = process.env.PORT || 8888;
 
 http.createServer(function(request, response) {
 
