@@ -3,7 +3,7 @@
 A simple demo that prints the server's environment variables.
 
 
-<a href="http://0.0.0.0:3000">
+<a href="http://0.0.0.0:3000?repoUrl=https://github.com/Phanatic/node-env">
 ![Helion Logo](HP_Helion_cloud_icon.jpg)
 </a>
 
