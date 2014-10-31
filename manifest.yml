@@ -1,4 +1,4 @@
 applications:
 - name: ciDemo
-  description : A simple demo that prints the server's environment variables. 
+  description : Another simple demo that prints the server's environment variables. 
   mem: 128M
