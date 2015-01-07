@@ -1,4 +1,4 @@
 applications:
-- name: node-env-app
+- name: node-env-app-test
   description : Another simple demo that prints the server's environment variables.
   mem: 256M
