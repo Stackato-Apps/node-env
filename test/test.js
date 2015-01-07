@@ -17,4 +17,7 @@ describe('node-env/sdk/environment', function (done) {
 
   it("Can list user environment variables", function () {
   });
+
+  it("Can list low privilege user environment variables", function () {
+  });
 });
