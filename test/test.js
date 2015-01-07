@@ -9,7 +9,7 @@ describe('node-env/sdk/environment', function (done) {
     done();
   }),
 
-  it("Can list system environment variables", function () {
+  it.skip("Can list system environment variables", function () {
   });
 
   it("Can list ALS environment variables", function () {
