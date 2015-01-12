@@ -23,4 +23,7 @@ describe('node-env/sdk/environment', function (done) {
 
   it("Cannot list high privilege user environment variables", function () {
   });
+
+  it("Can list low privilege system environment variables", function () {
+  });
 });
