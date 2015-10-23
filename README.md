@@ -6,6 +6,6 @@ A simple demo that prints the server's environment variables.
 
     node server.js
 
-## Deploying to Stackato
+## Deploying to HPE Helion Stackato
 
     stackato push -n
