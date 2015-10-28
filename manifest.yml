@@ -1,4 +1,4 @@
 applications:
 - name: node-env
   docker_image: stackatoapps/node-env:latest
-  mem: 32M
+  memory: 32M
