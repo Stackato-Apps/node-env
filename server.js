@@ -12,7 +12,7 @@ http.createServer(function(request, response) {
     var uri = url.parse(request.url).pathname,
         filename = path.join(process.cwd(), uri);
 
-    path.exists(filename, function(exists) {
+    fs.exists(filename, function(exists) {
         if (!exists) {
             response.writeHead(404, {
                 "Content-Type": "text/plain"
@@ -38,8 +38,7 @@ http.createServer(function(request, response) {
             fs.readFile(t, 'utf8', function(err, data) {
                 var html = mustache.to_html(data, v);
                 response.writeHead(200);
-                response.write(html, "binary");
-                response.end()
+                response.end(html, "binary");
                 return;
             });
         }
@@ -62,8 +61,7 @@ http.createServer(function(request, response) {
             } else {
                 response.writeHead(200);
             }
-            response.write(file, "binary");
-            response.end();
+            response.end(file, "binary");
         });
     });
 }).listen(parseInt(port, 10));
