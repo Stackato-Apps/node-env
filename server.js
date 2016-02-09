@@ -54,8 +54,13 @@ http.createServer(function(request, response) {
                 response.end();
                 return;
             }
-
-            response.writeHead(200);
+            if (uri.match(/css$/)) {
+                response.writeHead(200, {
+                    "Content-Type": "text/css"
+                });
+            } else {
+                response.writeHead(200);
+            }
             response.end(file, "binary");
         });
     });
