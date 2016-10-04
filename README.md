@@ -8,4 +8,4 @@ A simple demo that prints the server's environment variables.
 
 ## Deploying to HPE Helion Stackato
 
-    stackato push -n
+    cf push
